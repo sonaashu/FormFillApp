@@ -4,6 +4,10 @@
     <p>Please fill in this form!</p>
     <hr>
     <br>
+	
+    <label for="Fname"><b>Fname</b></label>
+    <input type="text" placeholder="Enter Fname" name="fname" id="fname" required>
+    <br>
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
