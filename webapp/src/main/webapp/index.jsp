@@ -9,6 +9,15 @@
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
+  <input type="radio" id="Male" name="Choose" value="MALE">
+  <label for="html">MALE</label><br>
+
+  <input type="radio" id="Female" name="the" value="FEMALE">
+  <label for="css">FEMALE</label><br>
+
+  <input type="radio" id="Other" name="Gender" value="OTHER">
+  <label for="javascript">OTHER</label>
+
     <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" id="fname"><br>
   
