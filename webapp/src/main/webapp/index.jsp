@@ -9,6 +9,12 @@
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" id="fname"><br>
+  
+<label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" id="lname"><br><br>
+
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
     <br>
