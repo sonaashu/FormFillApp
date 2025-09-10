@@ -1,47 +1,38 @@
 <form action="action_page.php">
   <div class="container">
-<<<<<<< HEAD
-    <h1>Welcome!! Saidemy DevOps batch55 Student Registration!</h1>
+    <h1>Welcome!! Saidemy DevOps Batch 55 Student Registration</h1>
     <p>Please fill in this form!</p>
-    <hr>
-    <br>
-	
-    <label for="Fname"><b>Fname</b></label>
-    <input type="text" placeholder="Enter Fname" name="fname" id="fname" required>
+    <hr><br>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" id="fname" required>
     <br>
 
-=======
-    <h1>Welcome!! Saidemy DevOps Student Registration Form!!</h1>
-    <p>Please fill in this form!</p>
-    <hr>
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="lname" id="lname" required>
     <br>
->>>>>>> refs/remotes/origin/main
+
     <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+    <input type="email" placeholder="Enter Email" name="email" id="email" required>
     <br>
 
-  <input type="radio" id="Male" name="Choose" value="MALE">
-  <label for="html">MALE</label><br>
+    <p><b>Gender:</b></p>
+    <input type="radio" id="male" name="gender" value="MALE">
+    <label for="male">Male</label><br>
 
-  <input type="radio" id="Female" name="the" value="FEMALE">
-  <label for="css">FEMALE</label><br>
+    <input type="radio" id="female" name="gender" value="FEMALE">
+    <label for="female">Female</label><br>
 
-  <input type="radio" id="Other" name="Gender" value="OTHER">
-  <label for="javascript">OTHER</label>
+    <input type="radio" id="other" name="gender" value="OTHER">
+    <label for="other">Other</label><br><br>
 
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" id="fname"><br>
-  
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" id="lname"><br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+    <br>
 
-  <label for="psw"><b>Password</b></label>
-  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-  <br>
-
-  <label for="psw-repeat"><b>Repeat Password</b></label>
-  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-  <br>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <br>
 
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
     <button type="submit" class="registerbtn">Register</button>
